@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="Es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <h1>MARGIN</h1>
+    <p>Es la que nos permite dar espacio entre elementos. Este tiene 4 atributos principales los cuales son:</p>
+    <nav class="text">
+        <ul class="lista">
+            <li>Margin-top => Margen Superior</li>
+            <li>Margin-rigth => Margen Derecha</li>
+            <li>Margin-bottom => Margen Inferior</li>
+            <li>Margin-left => Margen Izquierda</li>
+        </ul>
+    </nav>
+    <p>Estos atributos permiten ingresar 4 valores cada uno se ira aplicando hacia la derecha o en el sentido de las
+        manesillas del reloj</p>
+    <nav>
+        <div class="text">
+            <ul>
+                <li>4 valores => Se aplica 1 a cada lado (Top, Rigth, Bottom y Left)</li>
+                <li>3 valores => Se aplica 1 al Top 1, al Left y Rigth y 1 al Bottom </li>
+                <li>2 valores => Se aplica 1 al Top y Bottom y 1 al Left y Rigth</li>
+                <li>1 valor => Se aplica a 1 a todo</li>
+            </ul>
+        </div>
+    </nav>
+    <p>Vamos a relaizar los siguientes ejemplos para poder identificar las propiedades ya mensionadas</p>
+    <div class="ejemplo">
+        <div class="sub1"></div>
+        <div class="sub2">
+            < --- Top --->
+        </div>
+        <div class="sub3"></div>
+        <div class="sub4"><--- 65 pixeles-- Left</div>
+                <div class="sub5"></div>
+                <div class="sub6">Rigth -- 80 Pixeles --- ></div>
+                <div class="sub7"></div>
+                <div class="sub8">
+                    < --- Bottom --->
+                </div>
+                <div class="sub9"></div>
+        </div>
+        <P>Las margenes que estan aplicadas en el cuadro se pueden distingir en el espacio que se aprecia del recuadro
+            rojo y las letras en el caso de TOP y BOTTOM y en RIGTH y LEFT desde el recuadro rojo y las flechas, en el
+            TOP esta de (15px), RIGTH de (80px), el BOTTOM de (15px) y LEFT de (65px). Podemos poner en el Css las
+            margenes de la siguiente manera:
+            <hr>
+            <center><code><strong><pre>.cuadro{margin: 15px 80px 15px65px;}</pre></strong></code></center>
+            <hr>
+            En este ejemplo se aplicaron 4 atribnutos por eso no es necesario escribir cada uno de ellos para darle
+            valor a cada lado.
+        </P>
+</body>
+<footer>
+    <div class="link1">
+        <a href="/index.html">Pagina Principal</a>
+        <a href="/contenido/padding.html">Padding</a>
+        <a href="/contenido/width-y-heigth.html">width y heigth <a>
+    </div>
+</footer>
+
+</html>

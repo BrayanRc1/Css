@@ -1,0 +1,223 @@
+/* pagina principal */
+.block{
+    display: flex;
+    justify-content: center;
+}
+.block-1,
+.block-2,
+.block-3,
+.block-4{
+    background-color: teal;
+    margin: 15px;
+    padding: 20px;
+    width: 100px;
+    font-size: larger;
+    border-radius: 25px;
+}
+/* paginas compartidas */
+
+.ejemplo,
+.ejemplo2,
+.ejemplo3{
+    display: grid;
+    border: 3px solid red;
+    grid-template-columns: 33% 33% 33%;
+    padding: 10px;
+}
+.ejemplo4,
+.ejemplo5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ejemplo6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;
+}
+.sub6{
+    margin-left: auto;
+    margin-right: 80px;
+}
+.sub4{
+    margin-left: 65px;
+}
+.sub2,
+.sub5,
+.sub8{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub11,
+.sub13,
+.sub15,
+.sub17{
+    background-color: teal;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub14{
+    background-color: #eeb160;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sub23,
+.sub25{
+    background-color: teal;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    margin-bottom: 120px;
+}
+.sub24{
+    background-color: #eeb160;
+    padding: 95px 350px 120px 45px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sub21,
+.sub27{
+    background-color: teal;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mov,
+.mov2,
+.mov3,
+.mov4{
+    background-color: rgb(60, 163, 163);
+    border-right: 1px solid red;
+    width: 128px;
+    padding: 1px;
+    transition: all 0.3s ease;
+}
+.line{
+    background-color: #eeb160;
+}
+.line2{
+    background-color: aquamarine;
+}
+.link1{
+    display: grid;
+    grid-template-columns: 34% 35% 34%;
+    border: 1px solid rgb(51, 248, 255);
+    background-color: rgb(108, 213, 255);
+    padding: 5px;
+    margin-top: 50px;
+}
+.boxpadre{
+    display: grid;
+    grid-template-columns: 34% 35% 34%;
+    padding: 15px;
+    margin: 100px;
+}
+.box1{
+    background-color: #2079ff;
+    border: 1px solid rgb(0, 60, 255);
+    width: 150px;
+    height: 190px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 180px;
+}
+.boxsub1-1{
+    border: 1px solid rgb(0, 60, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.boxsub1-1-1{
+    border: 1px solid rgb(0, 60, 255);
+    border-radius: 150px;
+    margin-top: -165px;
+    width: 250px;
+    height: 250px;
+}
+.box2{
+    background-color: #2079ff;
+    border: 1px solid rgb(0, 60, 255);
+    width: 150px;
+    height: 190px;
+    border-bottom-right-radius: 73px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 65px;
+}
+.boxsub2-2{
+    border: 1px solid rgb(0, 60, 255);
+    width: 130px;
+    height: 130px;
+    margin-top: 58px;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+.boxsub2-2-2{
+    border: 1px solid rgb(0, 60, 255);
+    border-radius: 150px;
+    width: 250px;
+    height: 250px;
+    margin-top: -190px;
+    margin-left: -100px;
+}
+.boxsub2-2-2-2{
+    border: 1px solid rgb(0, 60, 255);
+    border-radius: 150px;
+    width: 95px;
+    height: 95px;
+    margin-top: -160px;
+}
+.box3{
+    background-color: #2079ff;
+    border: 1px solid rgb(0, 60, 255);
+    width: 150px;
+    height: 190px;
+    border-radius: 50px;
+}
+.boxsub3-3{
+    border: 1px solid rgb(0, 60, 255);
+    width: 94px;
+    height: 94px;
+    border-radius: 100px;
+}
+.boxsub3-3-3{
+    border: 1px solid rgb(0, 60, 255);
+    border-radius: 150px;
+    margin-top: -165px;
+    width: 94px;
+    height: 94px;
+    margin-top: -1px;
+}
+.boxsub3-3-3-3{
+    border: 1px solid rgb(0, 60, 255);
+    border-radius: 150px;
+    width: 94px;
+    height: 94px;
+    margin-top: -96px;
+    margin-left: 54px;
+}
+.boxsub3-3-3-3-3{
+    border: 1px solid rgb(0, 60, 255);
+    border-radius: 150px;
+    width: 94px;
+    height: 94px;
+    margin-top: -191px;
+    margin-left: 54px;
+}
+.ejemplo div:hover{
+    border: 1px solid darkcyan;
+}
+.mov:hover{
+    width: 250px;
+}
+.mov2:hover{
+    padding-bottom: 250px;
+}
+strong{
+    font-size: 15px;
+}

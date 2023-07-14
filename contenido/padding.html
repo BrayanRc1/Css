@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Padding</title>
+</head>
+
+<body>
+    <h1>Padding</h1>
+    <p>Es la propiedad que nos permite dar espacio interno del bloque y el borde del mismo. Este como el margin
+        es un Shorthand Esto quiere decir que le podemos dar atributos a cada lado del cuadro.
+    </p>
+    <nav>
+        <ul class="text">
+            <li>Padding-top => Padding Superior</li>
+            <li>Padding-rigth => Padding Derecho</li>
+            <li>Padding-bottom => Padding Inferior</li>
+            <li>Padding-left => Padding Izquierdo</li>
+        </ul>
+        <p>Estos atributos permiten ingresar 4 valores cada uno se ira aplicando hacia la derecha o en el sentido de
+            las manesillas del reloj</p>
+        <ul>
+            <li>4 valores (Padding: Top, Rigth, Bottom y Left)=> Se aplica 1 a cada lado.</li>
+            <li>3 valores (Padding: Top, Left-Rigth y Bottom) => Se aplica 1 al Top 1, al Left y Rigth y 1 al Bottom
+            </li>
+            <li>2 valores (Padding: Top-Bottom y Left-Rigth)=> Se aplica 1 al Top y Bottom y 1 al Left y Rigth</li>
+            <li>1 valor (Padding: Top/Rigth/Bottom/Left) => Se aplica a 1 a todo</li>
+        </ul>
+        <p>Vamos a realizar un ejemplo grafico para poder identificar las propiedades ya mensionadas.
+            En esta ocación aplicamos un atributo general al bloque llamado "Elemento de bloque" donde pusimos:<center>
+                <hr><code><strong><pre>.cuadro {paddin: 30px}</strong></code></pre>
+                <hr>
+            </center>
+        </p>
+    </nav>
+    <div class="ejemplo2">
+        <div class="sub10"></div>
+        <div class="sub11">30 pixeles</div>
+        <div class="sub12"></div>
+        <div class="sub13">30 pixeles</div>
+        <div class="sub14">Elemento de bloque</div>
+        <div class="sub15">30 pixeles</div>
+        <div class="sub16"></div>
+        <div class="sub17">30 pixeles</div>
+        <div class="sub18"></div>
+    </div>
+    <p>
+        Esto quiere decir que cada lado de dicha palabra tiene un espacio de 30 pixeles. Pero si quisieramos poner
+        valores diferentes su aspecto cambiaria totalmente, vamos a poner cada lado con valores diferentes y asi
+        notaremos las diferencias:
+        <hr>
+        <center><code><strong><pre>.cuadro {padding: 95px 350px 120px 45px;}</strong></code></pre>
+        </center>
+        <hr>
+    </p>
+    <div class="ejemplo3">
+        <div class="sub20"></div>
+        <div class="sub21">95 pixeles</div>
+        <div class="sub22"></div>
+        <div class="sub23">45 pixeles ---- > </div>
+        <div class="sub24">Elemento de bloque</div>
+        <div class="sub25">
+            < ---- 350 pixeles</div>
+                <div class="sub26"></div>
+                <div class="sub27">120 pixeles</div>
+                <div class="sub28"></div>
+        </div>
+        <p>Y asi podemos seguir cambiando los valores hasta buscar lo que queremos.</p>
+</body>
+<footer>
+        <div class="link1">
+        <a href="/index.html">Pagina Principal</a>
+        <a href="/contenido/width-y-heigth.html">width y heigth</a>
+        <a href="/contenido/margin.html">Margin</a>
+        </div>
+</footer>
+
+</html>
